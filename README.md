@@ -35,3 +35,8 @@ npx serverless offline
 
 ### stopping the server
 * `ctrl^c` inside the `terminal` will halt the server
+
+
+### accessing the lambda
+Their exists a built-in `lambda` function acccesible at `http://localhost:9999/dev`
+If the page loads then the project is `setup` successfully
