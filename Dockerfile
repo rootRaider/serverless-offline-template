@@ -1,5 +1,5 @@
 FROM node:12.20.0-alpine3.10
-RUN apk update
+RUN apk update ; apk add git
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
