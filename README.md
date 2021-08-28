@@ -13,7 +13,7 @@ this repo is a `template` repo meaning that you can `clone` this repo and re-nam
 ```
 git clone https://github.com/rootRaider/serverless-offline-template {YOUR_REPO_NAME}
 ```
-next rename the service on `serveless.yml` line 1 and docker image name on `setup.sh` line 6 to whatever you want
+next rename the service on `serveless.yml` line 1 and `WORKDIR` on `Dockerfile` line 3 to match your project and `repo` name respectively
 
 ### accessing the container
 from `terminal` at root of project:
@@ -35,7 +35,6 @@ npx serverless offline
 
 ### stopping the server
 * `ctrl^c` inside the `terminal` will halt the server
-
 
 ### accessing the lambda
 Their exists a built-in `lambda` function acccesible at `http://localhost:9999/dev`

@@ -1,8 +1,4 @@
 FROM node:12.20.0-alpine3.10
 RUN apk update ; apk add git
-WORKDIR /usr/src/app
-COPY package*.json ./
-RUN npm install
-COPY . .
-EXPOSE 3000
-CMD [ "npx", "serverless", "offline", "--host", "0.0.0.0" ]
+WORKDIR /workspaces/serverless-offline-template
+CMD ["npx", "serverless", "offline"]
