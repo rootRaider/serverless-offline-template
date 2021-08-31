@@ -4,7 +4,6 @@
 ### setup
 * install Docker Desktop (https://www.docker.com/products/docker-desktop)
 * install Remote Containers (https://code.visualstudio.com/docs/remote/containers)
-* run `setup.sh` in terminal of project root
 * open project in `vscode`
 * `vscode` will prompt you to open Dev Container (Click Reopen in Container) ![Reopen in Container](vscode-prompt.png)
 
